@@ -12,7 +12,7 @@ export default function App({ Component, pageProps }: AppProps) {
   return (
     <Container>
       <Header>
-        <Image src={logoImg.src} alt="Ignite shop" />
+        <Image src={logoImg.src} alt="Ignite shop" width={130} height={52} />
       </Header>
       <Component {...pageProps} />;
     </Container>
